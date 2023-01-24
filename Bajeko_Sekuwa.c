@@ -13,7 +13,7 @@ int main()
 {
     printf("---------------------------------------------------------------------------------------------------------------------------------------------------------");
     printf("\n|\t\t\t************************************* Welcome to Bajeko Sekuwa Resturant **************************\t\t\t\t|\n|--(:Menu Book:)--\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t---Product---\t\t--Price--\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t1. Buff Sekuwa\t\tRs.90\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t2. Chicken Sekuka\tRs.110\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t3. Chicken Chowmin\tRs.130\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t4. Buff Chowmin\t\tRs.100\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t5. Chicken MOMO\t\tRs.160\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t6. Thakali Khana Set\tRs.350\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t7. Buff Stick\t\tRs.120\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t8. Chicken Stick\tRs.150\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t9. Buff Sukuti\t\tRs.80\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t10. Chicken Sukuti\tRs.100\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t|\n|-------------------------------------------------------------------------------------------------------------------------------------------------------|"); 
-    int n,i,qun,order;
+    int n,i,qun,order,r;
     float total=0,total_a=0 , total_b=0 , total_c=0 ,total_d=0 ,total_e=0 ,total_f=0 ,total_g=0 ,total_h=0 ,total_j=0 ,total_k=0, total_cart = 0 ;
     printf("\n\nDo you want to exit or order? \n\nFor order press 1 For exit press 0 : ");
     scanf("%d",&order);
@@ -147,6 +147,9 @@ int main()
             printf("\n|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\tThank You For Visiting Us\t\t\t|");
             printf("\n---------------------------------------------------------\n");
         }
+            printf("\n***** Give us Rating according to our services (Out of 5 Star) *****\n----- Star ");
+            scanf("%d",&r);
+            printf("\n***** %d/5 Star \n***** Thank You For Your %d star Rating\n",r,r);
     
 }
 
