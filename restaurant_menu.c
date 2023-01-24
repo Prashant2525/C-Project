@@ -31,7 +31,7 @@ int main()
     for (i=0;i<n;i++)
     {
     printf("\nChoose Products between 1-10 : ");
-    scanf("%d",&choice[i]);
+    scanf("%d",&choice);
     printf("----------------------------------------------------------");
         if (*choice == 1)
         {
