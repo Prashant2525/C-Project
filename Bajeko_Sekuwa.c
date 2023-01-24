@@ -31,7 +31,7 @@ int main()
     for (i=0;i<n;i++)
     {
     printf("\nChoose Products between 1-10 : ");
-    scanf("%d",&choice[i]);
+    scanf("%d",&choice);
     printf("----------------------------------------------------------");
         if (*choice == 1)
         {
@@ -145,7 +145,7 @@ int main()
             printf("\n---------------------------------------------------------");
             printf("\n|\t****** Bill of Your Choosed Order ******\t|\n|\t\t\t\t\t\t\t|\n|\tAmount is Rs.%.2f\t\t\t\t|\n|\tGST is Rs.%.2f\t\t\t\t\t|\n|\tTotal Amount after GST is Rs.%.2f\t\t|",total, .12*total,total_cart);
             printf("\n|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\tThank You For Visiting Us\t\t\t|");
-            printf("\n---------------------------------------------------------");
+            printf("\n---------------------------------------------------------\n");
         }
     
 }
